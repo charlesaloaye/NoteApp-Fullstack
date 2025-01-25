@@ -1,4 +1,4 @@
-### Description for GitHub
+### Description for NoteApp
 **NoteApp** is a full-stack note-taking application built using the MERN stack (MongoDB, Express, React, and Node.js). It allows users to create, edit, delete, and organize notes efficiently. With features like user authentication, search functionality, and a responsive design, it’s an ideal solution for staying organized.
 
 ---
