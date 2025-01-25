@@ -1,11 +1,4 @@
-### Description for NoteApp
-**NoteApp** is a full-stack note-taking application built using the MERN stack (MongoDB, Express, React, and Node.js). It allows users to create, edit, delete, and organize notes efficiently. With features like user authentication, search functionality, and a responsive design, it’s an ideal solution for staying organized.
 
----
-
-### README.md
-
-```markdown
 # NoteApp
 
 **NoteApp** is a feature-rich note-taking application built with the MERN stack. It provides a seamless experience for managing your notes, whether you're on desktop or mobile.
@@ -24,9 +17,9 @@
 
 ## Tech Stack
 
-- **Frontend**: React, Axios
-- **Backend**: Express, Node.js
-- **Database**: MongoDB with Mongoose
+- **Frontend**: React, Axios  
+- **Backend**: Express, Node.js  
+- **Database**: MongoDB with Mongoose  
 - **Authentication**: JSON Web Tokens (JWT)
 
 ---
@@ -48,7 +41,7 @@ _Screenshot of the NoteApp home page._
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/charlesaloaye/NoteApp-Fullstack.git
    ```
 
 2. **Backend Setup**:
@@ -57,7 +50,7 @@ _Screenshot of the NoteApp home page._
    npm install
    ```
 
-   Create a `.env` file in the `/server` directory:
+   Create a `.env` file in the `/backend` directory:
    ```plaintext
    MONGO_CONNECTION_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>
    AUTH_TOKEN=<your_jwt_secret>
@@ -66,7 +59,7 @@ _Screenshot of the NoteApp home page._
 
    Start the server:
    ```bash
-   npm run server
+   npm run backend
    ```
 
 3. **Frontend Setup**:
@@ -87,15 +80,15 @@ _Screenshot of the NoteApp home page._
 ## API Endpoints
 
 ### Authentication
-- **POST** `/api/user/register` – Register a new user
-- **POST** `/api/user/login` – Log in a user
-- **POST** `/api/user/authenticate` – verify logged in user
+- **POST** `/api/user/register` – Register a new user  
+- **POST** `/api/user/login` – Log in a user  
+- **GET** `/api/user/authenticate` – Verify logged-in user  
 
 ### Notes
-- **GET** `/api/note` – Fetch all notes
-- **POST** `/api/note/add` – Create a new note
-- **PUT** `/api/note/:id` – Update a note
-- **DELETE** `/api/note/:id` – Delete a note
+- **GET** `/api/note` – Fetch all notes  
+- **POST** `/api/note/add` – Create a new note  
+- **PUT** `/api/note/:id` – Update a note  
+- **DELETE** `/api/note/:id` – Delete a note  
 
 ---
 
@@ -124,7 +117,7 @@ We welcome contributions! To get started:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [MIT](MIT) file for details.
 
 ---
 
@@ -132,9 +125,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For inquiries or support, reach out to:
 
-- **Name**: Sedenu Aloaye Charles  
-- **Email**: sedenuc@gmail.com  
-- **Phone**: +234 813 720 3803
-```
-
-Let me know if you'd like any adjustments or additional sections!
+- **Email**: charlestechy0@gmail.com  
